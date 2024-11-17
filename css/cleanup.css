@@ -1,1 +1,20 @@
 /* write your override styles here */
+/* Target the wall container */
+#wall {
+    background-color: white; /* Replace with your desired wall background color */
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Hide specific tags */
+  #wall .tag-1,
+  #wall .tag-2,
+  #wall .tag-3,
+  #wall .tag-4,
+  #wall .tag-5,
+  #wall .tag-6,
+  #wall .tag-7 {
+    display: none; /* Hides all graffiti tags */
+  
+}
